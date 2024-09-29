@@ -80,12 +80,8 @@
   font-weight: 275;
   line-height: 27px;
   letter-spacing: 0.005em;
-  text-align: left;
   color: #06686E;
-
-  /* text-align: justify; */
 }
-/* justify იმიტომ მოვაშორე, რომ საერთოდ ცდებოდა ფიგმას დიზაინს:) */
 .second_section_button {
   width: 112px;
   height: 46px;

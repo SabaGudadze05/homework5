@@ -1,0 +1,145 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nerko+One&display=swap");
+/* font class */
+
+.nerko_one {
+  font-family: "Nerko One", cursive;
+}
+.kanit {
+  font-family: "Kanit", sans-serif;
+}
+
+/* header */
+
+.header {
+  width: 1440px;
+  margin: auto;
+  padding: 38px 130px;
+  background-color: #2a9d8f;
+}
+.logo_link {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  vertical-align: middle;
+}
+.logo_link_img {
+  width: 100%;
+  height: 100%;
+}
+.header_nav {
+  display: inline-block;
+  margin-left: 700px;
+}
+/* as a design, margin left should be 714 pixel, but i writted 700  px because of 3-4 pixels between elements */
+.header_nav_ul {
+  vertical-align: middle;
+}
+.header_nav_ul_li {
+  display: inline-block;
+}
+.nav_li_between {
+  margin-inline: 76px;
+}
+.header_nav_ul_li_a {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #ffffff;
+}
+/* mainSection */
+.section {
+  width: 1440px;
+  margin: auto;
+  background-color: #d4f3f0;
+  padding: 80px 130px;
+}
+.section_cover {
+  display: inline-block;
+  width: 600px;
+  height: 480px;
+  vertical-align: top;
+}
+.second_section {
+  width: 460px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 110px;
+}
+.second_section_header {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #06686e;
+  margin-bottom: 32px;
+}
+.second_section_paragraph {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 275;
+  line-height: 27px;
+  color: #06686e;
+  /* text-align: justify; */
+}
+/* justify იმიტომ მოვაშორე, რომ საერთოდ ცდებოდა ფიგმას დიზაინს:) */
+.second_section_button {
+  width: 112px;
+  height: 46px;
+  border: none;
+  background-color: #2a9d8f;
+  font-size: 16px;
+  font-weight: 275;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 60px;
+}
+/* article */
+.main_article {
+  width: 1180px;
+  margin: 80px auto;
+}
+.article_header {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #06686e;
+}
+.article_paragraph {
+  font-size: 24px;
+  font-weight: 275;
+  line-height: 36px;
+  text-align: justify;
+  color: #06686e;
+  margin-top: 32px;
+}
+/* footer */
+.footer {
+  width: 1440px;
+  margin: 80px auto 0;
+  background-color: #2a9d8f;
+  padding: 38px 636px;
+}
+.footer_header {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+.footer_nav {
+  margin-top: 40px;
+}
+.footer_li {
+  display: inline-block;
+}
+.left {
+  margin-left: 28px;
+  margin-right: 14px;
+}
+.right {
+  margin-left: 14px;
+  margin-right: 28px;
+}
+/* End Code <3 */

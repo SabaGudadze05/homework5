@@ -79,7 +79,10 @@
   font-style: italic;
   font-weight: 275;
   line-height: 27px;
-  color: #06686e;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #06686E;
+
   /* text-align: justify; */
 }
 /* justify იმიტომ მოვაშორე, რომ საერთოდ ცდებოდა ფიგმას დიზაინს:) */
@@ -134,12 +137,12 @@
 .footer_li {
   display: inline-block;
 }
-.footer_nav_a{
+.footer_nav_a {
   display: inline-block;
   width: 19px;
   height: 19px;
 }
-.footer_link{
+.footer_link {
   width: 100%;
   height: 100%;
 }
